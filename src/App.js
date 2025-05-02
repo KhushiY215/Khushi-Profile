@@ -79,12 +79,15 @@ const App = () => {
             <div className="bg-white bg-opacity-20 p-4 rounded-xl">
               <img src="https://i.ibb.co/jvLPjmf1/Screenshot-2025-03-25-185845.png" alt="Credit Card Validator" className="rounded-lg mb-2" />
               <h3 className="text-lg font-semibold text-cyan-300">Credit Card Transaction Validator</h3>
-              <p className={sections.text}>Used Streamlit and Random Forest for real-time fraud detection and transaction analysis.</p>
+              <p className={sections.text}>Used Streamlit and Random Forest for real-time fraud detection and transaction analysis with 90% accuracy.</p>
+              <p className={sections.text}>Integrated a relational database for transaction history, enabling verification of past data and detection of fraudulent anomalies with high precision.</p>
+
             </div>
             <div className="bg-white bg-opacity-20 p-4 rounded-xl">
               <img src="https://pathanamthittamedia.com/wp-content/uploads/2024/07/DOCTOR-SYM-1.jpg" alt="Doctor's Diary" className="rounded-lg mb-2" />
-              <h3 className="text-lg font-semibold text-cyan-300">Doctor’s Diary (Ongoing)</h3>
-              <p className={sections.text}>Medical AI Transcription model and frontend in progress for enhancing consultation efficiency.</p>
+              <h3 className="text-lg font-semibold text-cyan-300">Doctor’s Diary</h3>
+              <p className={sections.text}>A full-stack clinical web application using Flask and a Random Forest model with 97% accuracy.</p>
+              <p className={sections.text}>Trained the model on data for 15 common diseases to predict diagnoses, prescriptions, and precautions from patient symptoms and vitals.</p>
             </div>
             <div className="bg-white bg-opacity-20 p-4 rounded-xl">
             <a href="https://khushiy215.github.io/Tic-Tac-Toe/" target="_blank" rel="noopener noreferrer">
