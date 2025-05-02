@@ -65,11 +65,15 @@ const App = () => {
           <h2 className={sections.heading}>Experience</h2>
           <p className={sections.subheading}>Coding Ninjas @ SRMIST</p>
           <p className={sections.text}>Web Developer (Sep 2023 – May 2024)</p>
-          <p className={sections.text}>Built responsive websites using HTML, CSS, React.js, and JavaScript.</p>
-          <br />
+          <p className={sections.text}>Developed and deployed 10+ responsive web pages using HTML, CSS, JavaScript, and React.js, improving site responsiveness and performance by 30%. Collaborated with a team of 5+ developers to optimize website load speed, resulting in a 25% increase in user engagement and smoother navigation.</p>
+          <p className={sections.text}>Translated high-fidelity UI/UX mockups into fully functional features, ensuring 100% design-to-code accuracy and a seamless user experience.</p>
+            <br />
           <p className={sections.subheading}>Safe Your Web</p>
           <p className={sections.text}>Frontend Developer Intern (Sep 2024 – Oct 2024)</p>
-          <p className={sections.text}>Designed and built high-performance websites using Figma, React.js, and Tailwind CSS.</p>
+          <p className={sections.text}>Designed 6+ interactive user interface components using Figma, reducing user navigation time by 40%.</p>
+          <p className={sections.text}>Built and optimized a fully responsive website using React.js and Tailwind CSS, decreasing load time by 35% across mobile and desktop platforms.</p>
+          <p className={sections.text}>Collaborated closely with the design and QA teams to maintain 95%+ code quality and ensure cross-browser compatibility</p>
+
         </motion.div>
 
         {/* Projects */}
