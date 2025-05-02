@@ -35,7 +35,7 @@ const App = () => {
           />
           <div>
             <h1 className="text-5xl font-bold text-cyan-400">Khushi</h1>
-            <p className="text-lg text-white mt-2">Aspiring Software Developer & Tech Enthusiast</p>
+            <p className="text-lg text-white mt-2">A Tech Enthusiast</p>
           </div>
         </div>
 
