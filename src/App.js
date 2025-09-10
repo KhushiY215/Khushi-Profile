@@ -43,7 +43,7 @@ const App = () => {
         <motion.div className={sections.card} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <h2 className={sections.heading}>About Me</h2>
           <p className={sections.text}>
-            I’m currently pursuing my B.Tech in Computer Science from SRM Institute of Science and Technology with a CGPA of 9.08. Passionate about building user-centric web apps, exploring machine learning, and contributing to social impact through technology.
+            I’m currently pursuing my B.Tech in Computer Science from SRM Institute of Science and Technology with a CGPA of 9.02. Passionate about building user-centric web apps, exploring machine learning, and contributing to social impact through technology.
           </p>
         </motion.div>
 
@@ -52,10 +52,10 @@ const App = () => {
           <h2 className={sections.heading}>Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-white">
             <li>React.js, Tailwind CSS</li>
-            <li>JavaScript, HTML, CSS</li>
+            <li>JavaScript, Node.js, Express.js, HTML, CSS</li>
             <li>C++, DSA, OOP</li>
-            <li>Python, MATLAB</li>
-            <li>MySQL, Git & GitHub</li>
+            <li>Python, Flask</li>
+            <li>MySQL, PostgreSQL, MongoDB, Git & GitHub</li>
             <li>Figma, Streamlit</li>
           </div>
         </motion.div>
@@ -68,12 +68,10 @@ const App = () => {
           <p className={sections.text}>Developed and deployed 10+ responsive web pages using HTML, CSS, JavaScript, and React.js, improving site responsiveness and performance by 30%. Collaborated with a team of 5+ developers to optimize website load speed, resulting in a 25% increase in user engagement and smoother navigation.</p>
           <p className={sections.text}>Translated high-fidelity UI/UX mockups into fully functional features, ensuring 100% design-to-code accuracy and a seamless user experience.</p>
             <br />
-          <p className={sections.subheading}>Safe Your Web</p>
-          <p className={sections.text}>Frontend Developer Intern (Sep 2024 – Oct 2024)</p>
-          <p className={sections.text}>Designed 6+ interactive user interface components using Figma, reducing user navigation time by 40%.</p>
-          <p className={sections.text}>Built and optimized a fully responsive website using React.js and Tailwind CSS, decreasing load time by 35% across mobile and desktop platforms.</p>
-          <p className={sections.text}>Collaborated closely with the design and QA teams to maintain 95%+ code quality and ensure cross-browser compatibility</p>
-
+          <p className={sections.subheading}>AICTE Virtual Internship</p>
+          <p className={sections.text}>Completed AWS Machine Learning Foundations course with distinction.</p>
+          <p className={sections.text}>Gained hands-on experience in data preprocessing, model training, and evaluation using AWS ML services.</p>
+          <p className={sections.text}>Applied supervised and unsupervised learning techniques to real-world datasets.</p>
         </motion.div>
 
         {/* Projects */}
@@ -128,7 +126,7 @@ const App = () => {
             <div className="bg-white bg-opacity-20 p-4 rounded-xl">
               <img src="https://i.ibb.co/1fqJZQRT/aashrayaid.jpg" alt="Volunteer" className="rounded-lg mb-2" />
               <h3 className="text-lg font-semibold text-cyan-300">Volunteer Leader</h3>
-              <p className={sections.text}>Led and coordinated food drives, educational workshops, and awareness campaigns. Ensured smooth execution and strong community participation.</p>
+              <p className={sections.text}>Ensured smooth execution and strong community participation.</p>
             </div>
           </div>
         </motion.div>
